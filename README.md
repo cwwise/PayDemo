@@ -7,8 +7,7 @@
 ###微信申请过程
 * 创建微信应用,[微信开发平台](https://open.weixin.qq.com/),创建应用之后就是开通微信支付的权限了，这里需要一些材料和时间。
 * 审核成功之后呢，微信会发送一个邮件，图片里面包括需要的信息，APPID以及PARTNER_ID，按照流程设置api密钥就可以了。<br/>
-![image{320x500}](https://github.com/wei18810109052/CWPayDemo/blob/master/src/wx_info.png)
-<img src="https://github.com/wei18810109052/CWPayDemo/blob/master/src/wx_info.png" width = "640" align=center />
+<img src="https://github.com/wei18810109052/CWPayDemo/blob/master/src/wx_info.png" width = "600" align=center />
 <br/>
 设置api密钥需要安装证书，按照上面操作就好了，设置32位密码，可以[百度一下](http://www.baidu.com)32位密码生成器。 这里我随便搜了一个[密码链接](http://dh.mxiaozheng.cn/CipherMaker)
 
@@ -20,7 +19,7 @@
 
 ##支付宝
 >支付宝开发，也遇到一个坑，就是之前以为支付宝支付，只需要在第三方平台申请就好了，再申请支付宝支付的权限就ok了。申请成功之后，填写之后呢，可以用调起支付宝，但是提示抱歉，该商户未开通支付宝服务，无法付款.查找一些资料后，发现需要开通无线支付的功能才行。签约之后就可以了。
-<img src="https://github.com/wei18810109052/CWPayDemo/blob/master/src/zfb_error.PNG" width = "640" align=center />
+<img src="https://github.com/wei18810109052/CWPayDemo/blob/master/src/zfb_error.PNG" width = "500" align=center />
 ###支付宝申请过程
 * 创建支付宝移动应用，在[支付宝开放平台](http://open.alipay.com/platform/home.htm)上面申请。**支付提交之后，不能修改，不能删除，这点比较坑**，只能等待了，大家注意一下。
 * 申请完之后，跟微信一下，就是开通移动支付的权限，应该是需要一些资料。这个需要几天吧，我自己也没有提交资料，所以具体的，我也不清楚。
