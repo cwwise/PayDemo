@@ -12,9 +12,19 @@
 		ED62636D1C044AFE00D7AEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED62636C1C044AFE00D7AEEB /* ViewController.m */; };
 		ED6263701C044AFE00D7AEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62636E1C044AFE00D7AEEB /* Main.storyboard */; };
 		ED6263721C044AFE00D7AEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6263711C044AFE00D7AEEB /* Assets.xcassets */; };
-		ED6263751C044AFE00D7AEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6263731C044AFE00D7AEEB /* LaunchScreen.storyboard */; };
 		ED6263801C044AFE00D7AEEB /* CWPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED62637F1C044AFE00D7AEEB /* CWPayDemoTests.m */; };
 		ED62638B1C044AFE00D7AEEB /* CWPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED62638A1C044AFE00D7AEEB /* CWPayDemoUITests.m */; };
+		ED6263A31C04BA5400D7AEEB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6263A21C04BA5400D7AEEB /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		ED6263AE1C04BF3500D7AEEB /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263AA1C04BF3500D7AEEB /* libWeChatSDK.a */; settings = {ASSET_TAGS = (); }; };
+		ED6263AF1C04BF3500D7AEEB /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED6263AB1C04BF3500D7AEEB /* read_me.txt */; settings = {ASSET_TAGS = (); }; };
+		ED6263B31C04BFBA00D7AEEB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263B21C04BFBA00D7AEEB /* Security.framework */; };
+		ED6263B51C04BFC300D7AEEB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263B41C04BFC300D7AEEB /* libiconv.tbd */; };
+		ED6263B71C04BFC900D7AEEB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263B61C04BFC900D7AEEB /* SystemConfiguration.framework */; };
+		ED6263B91C04BFCF00D7AEEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263B81C04BFCF00D7AEEB /* CoreGraphics.framework */; };
+		ED6263BB1C04BFD800D7AEEB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263BA1C04BFD800D7AEEB /* libsqlite3.tbd */; };
+		ED6263BD1C04BFDD00D7AEEB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263BC1C04BFDD00D7AEEB /* CoreTelephony.framework */; };
+		ED6263BF1C04BFE700D7AEEB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263BE1C04BFE700D7AEEB /* libstdc++.tbd */; };
+		ED6263C11C04BFEC00D7AEEB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6263C01C04BFEC00D7AEEB /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +53,6 @@
 		ED62636C1C044AFE00D7AEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED62636F1C044AFE00D7AEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED6263711C044AFE00D7AEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED6263741C044AFE00D7AEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED6263761C044AFE00D7AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED62637B1C044AFE00D7AEEB /* CWPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED62637F1C044AFE00D7AEEB /* CWPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWPayDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		ED6263861C044AFE00D7AEEB /* CWPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED62638A1C044AFE00D7AEEB /* CWPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWPayDemoUITests.m; sourceTree = "<group>"; };
 		ED62638C1C044AFE00D7AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6263A21C04BA5400D7AEEB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		ED6263AA1C04BF3500D7AEEB /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		ED6263AB1C04BF3500D7AEEB /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		ED6263AC1C04BF3500D7AEEB /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		ED6263AD1C04BF3500D7AEEB /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		ED6263B21C04BFBA00D7AEEB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ED6263B41C04BFC300D7AEEB /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		ED6263B61C04BFC900D7AEEB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ED6263B81C04BFCF00D7AEEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED6263BA1C04BFD800D7AEEB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ED6263BC1C04BFDD00D7AEEB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ED6263BE1C04BFE700D7AEEB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		ED6263C01C04BFEC00D7AEEB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6263C11C04BFEC00D7AEEB /* libz.tbd in Frameworks */,
+				ED6263BF1C04BFE700D7AEEB /* libstdc++.tbd in Frameworks */,
+				ED6263BD1C04BFDD00D7AEEB /* CoreTelephony.framework in Frameworks */,
+				ED6263BB1C04BFD800D7AEEB /* libsqlite3.tbd in Frameworks */,
+				ED6263B91C04BFCF00D7AEEB /* CoreGraphics.framework in Frameworks */,
+				ED6263B71C04BFC900D7AEEB /* SystemConfiguration.framework in Frameworks */,
+				ED6263B51C04BFC300D7AEEB /* libiconv.tbd in Frameworks */,
+				ED6263B31C04BFBA00D7AEEB /* Security.framework in Frameworks */,
+				ED6263AE1C04BF3500D7AEEB /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,7 @@
 		ED6263591C044AFE00D7AEEB = {
 			isa = PBXGroup;
 			children = (
+				ED6263B11C04BF6700D7AEEB /* Frameworks */,
 				ED6263641C044AFE00D7AEEB /* CWPayDemo */,
 				ED62637E1C044AFE00D7AEEB /* CWPayDemoTests */,
 				ED6263891C044AFE00D7AEEB /* CWPayDemoUITests */,
@@ -105,9 +137,10 @@
 				ED6263691C044AFE00D7AEEB /* AppDelegate.m */,
 				ED62636B1C044AFE00D7AEEB /* ViewController.h */,
 				ED62636C1C044AFE00D7AEEB /* ViewController.m */,
+				ED6263A81C04BF3500D7AEEB /* pay */,
+				ED6263A21C04BA5400D7AEEB /* Launch Screen.storyboard */,
 				ED62636E1C044AFE00D7AEEB /* Main.storyboard */,
 				ED6263711C044AFE00D7AEEB /* Assets.xcassets */,
-				ED6263731C044AFE00D7AEEB /* LaunchScreen.storyboard */,
 				ED6263761C044AFE00D7AEEB /* Info.plist */,
 				ED6263651C044AFE00D7AEEB /* Supporting Files */,
 			);
@@ -138,6 +171,40 @@
 				ED62638C1C044AFE00D7AEEB /* Info.plist */,
 			);
 			path = CWPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		ED6263A81C04BF3500D7AEEB /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				ED6263A91C04BF3500D7AEEB /* weixin */,
+			);
+			path = pay;
+			sourceTree = "<group>";
+		};
+		ED6263A91C04BF3500D7AEEB /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				ED6263AA1C04BF3500D7AEEB /* libWeChatSDK.a */,
+				ED6263AB1C04BF3500D7AEEB /* read_me.txt */,
+				ED6263AC1C04BF3500D7AEEB /* WXApi.h */,
+				ED6263AD1C04BF3500D7AEEB /* WXApiObject.h */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		ED6263B11C04BF6700D7AEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED6263C01C04BFEC00D7AEEB /* libz.tbd */,
+				ED6263BE1C04BFE700D7AEEB /* libstdc++.tbd */,
+				ED6263BC1C04BFDD00D7AEEB /* CoreTelephony.framework */,
+				ED6263BA1C04BFD800D7AEEB /* libsqlite3.tbd */,
+				ED6263B81C04BFCF00D7AEEB /* CoreGraphics.framework */,
+				ED6263B61C04BFC900D7AEEB /* SystemConfiguration.framework */,
+				ED6263B41C04BFC300D7AEEB /* libiconv.tbd */,
+				ED6263B21C04BFBA00D7AEEB /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6263751C044AFE00D7AEEB /* LaunchScreen.storyboard in Resources */,
+				ED6263A31C04BA5400D7AEEB /* Launch Screen.storyboard in Resources */,
 				ED6263721C044AFE00D7AEEB /* Assets.xcassets in Resources */,
+				ED6263AF1C04BF3500D7AEEB /* read_me.txt in Resources */,
 				ED6263701C044AFE00D7AEEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +382,6 @@
 				ED62636F1C044AFE00D7AEEB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ED6263731C044AFE00D7AEEB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED6263741C044AFE00D7AEEB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,8 +471,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei chen (4CJGE4SRV4)";
 				INFOPLIST_FILE = CWPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CWPayDemo/pay/weixin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.CWPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -423,7 +489,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CWPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CWPayDemo/pay/weixin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.CWPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +567,7 @@
 				ED6263911C044AFE00D7AEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6263921C044AFE00D7AEEB /* Build configuration list for PBXNativeTarget "CWPayDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +576,7 @@
 				ED6263941C044AFE00D7AEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6263951C044AFE00D7AEEB /* Build configuration list for PBXNativeTarget "CWPayDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +585,7 @@
 				ED6263971C044AFE00D7AEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

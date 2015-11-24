@@ -13,6 +13,17 @@
 现在就得到了三个参数，`APPI_ID`,`PARTNER_ID`,`PARTNER_KEY`，这三个参数就够了。
 [微信开发文档](https://pay.weixin.qq.com/wiki/doc/api/index.html)，根据文档开发，就好了。
 
+注意的地方:添加的库文件
+
+* `Security.framework`
+* `libiconv.tbd`
+* `SystemConfiguration.framework`
+* `CoreGraphics.Framework`
+* `libsqlite3.tbd`
+* `CoreTelephony.framework`
+* `libstdc++.tbd`
+* `libz.tbd`
+
 
 
 
