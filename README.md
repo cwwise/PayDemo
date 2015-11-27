@@ -14,7 +14,23 @@
 现在就得到了三个参数，`APPI_ID`,`PARTNER_ID`,`PARTNER_KEY`，这三个参数就够了。
 [微信开发文档](https://pay.weixin.qq.com/wiki/doc/api/index.html)，根据文档开发，就好了。
 
-注意的地方:添加的库文件
+注意的地方:
+
+有可能遇到一个错误就是:调起微信支付后，进入微信，中间出现一个确定按钮，点击后返回APP，错误是-2;
+>遇到这个问题，肯定是sign 有问题，sign不是预下单之后微信的sign，下面代码可以看看就知道了，是需要把你传给客户端的几个参数按照微信的方式签名一下，具体可以查看src下面python文件看看
+```python
+    response = {"appid":weixinresponse["appid"],
+                "partnerid":weixinresponse["mch_id"],
+                "prepayid":weixinresponse["prepay_id"],
+                "package":"Sign=WXPay",
+                "noncestr":weixinresponse["nonce_str"],
+                "timestamp":timestamp}
+    responsesign = weixinSign(response,PARTNER_KEY)
+    #传给客户端的sign 是现在这几个参数的签名，不是微信服务器返回的。
+    response["sign"] = responsesign
+```
+
+添加的库文件
 
 * `Security.framework`
 * `libiconv.tbd`
